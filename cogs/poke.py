@@ -8,7 +8,7 @@ class Poke(commands.Cog):                                                       
         self.bot = bot                                                              #bot is bot from commands
 
     #Pokemon pic command
-    @commands.command()                                                             #commads.Cog.listener() for events
+    @commands.command()                                                             #It's a command
     async def poke(self, ctx, arg):                                                 #Defines !poke
         try:                                                                        #Tries...
             pokemon = arg.lower()                                                   #Sets the argument into lowercase
